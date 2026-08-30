@@ -29,12 +29,13 @@ jobs:
 
       - name: Commit generated portrait
         run: |
-          # Stage first: --cached correctly detects a newly-created output file.
-          git add assets/profile-pixel.png
-          if git diff --cached --quiet; then
+          # git diff does not detect a newly-created, untracked image file.
+          if [ -z "$(git status --porcelain -- assets/profile-pixel.png)" ]; then
+          if git diff --quiet -- assets/profile-pixel.png; then
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/profile-pixel.png
           git commit -m "Generate pixel portrait [skip ci]"
           git push
