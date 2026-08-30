@@ -29,6 +29,8 @@ jobs:
 
       - name: Commit generated portrait
         run: |
+          # git diff does not detect a newly-created, untracked image file.
+          if [ -z "$(git status --porcelain -- assets/profile-pixel.png)" ]; then
           if git diff --quiet -- assets/profile-pixel.png; then
             exit 0
           fi
