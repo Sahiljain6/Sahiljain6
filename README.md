@@ -1,3 +1,9 @@
+<p align="center">
+  <img src="assets/portrait.svg" alt="Animated dot-matrix portrait of Sahil Jain" width="320" />
+</p>
+
+<!-- Upload the source photo as assets/profile.png, then run the Generate pixel portrait workflow. -->
+
 <div align="center">
   <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=24&pause=1000&color=39D353&center=true&vCenter=true&width=560&lines=Sahil+Jain;Software+Developer;Building+ShopSense+India" alt="Sahil Jain — Software Developer — Building ShopSense India" />
   <br />
@@ -24,14 +30,6 @@ Hi, I'm Sahil Jain. I build things at the intersection of AI and e-commerce, cur
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,fastapi,react,js,vercel,git,github" alt="Python, FastAPI, React, JavaScript, Vercel, Git, and GitHub" />
 </p>
-
-## `~/` pixel portrait
-
-<p align="center">
-  <img src="assets/profile-pixel.png" alt="Pixel portrait of Sahil Jain" width="320" />
-</p>
-
-<!-- Upload the source photo as assets/profile.png, then run the Generate pixel portrait workflow. -->
 
 ## `~/` skill radar
 
