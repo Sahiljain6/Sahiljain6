@@ -31,6 +31,7 @@ jobs:
         run: |
           # git diff does not detect a newly-created, untracked image file.
           if [ -z "$(git status --porcelain -- assets/profile-pixel.png)" ]; then
+          if git diff --quiet -- assets/profile-pixel.png; then
             exit 0
           fi
           git config user.name "github-actions[bot]"
