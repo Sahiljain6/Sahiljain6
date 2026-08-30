@@ -25,6 +25,14 @@ Hi, I'm Sahil Jain. I build things at the intersection of AI and e-commerce, cur
   <img src="https://skillicons.dev/icons?i=python,fastapi,react,js,vercel,git,github" alt="Python, FastAPI, React, JavaScript, Vercel, Git, and GitHub" />
 </p>
 
+## `~/` pixel portrait
+
+<p align="center">
+  <img src="assets/profile-pixel.png" alt="Pixel portrait of Sahil Jain" width="320" />
+</p>
+
+<!-- Upload the source photo as assets/profile.png, then run the Generate pixel portrait workflow. -->
+
 ## `~/` skill radar
 
 <!-- Placeholder values in scripts/generate_radar.py — update them when real self-assessments are available. -->
